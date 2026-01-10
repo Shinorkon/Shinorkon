@@ -19,6 +19,7 @@ A mobile nutrition and meal tracking app designed for Maldivians. Features tradi
 - **Status**: Active Development
 - **Features**: Calorie tracking, meal logging, traditional Maldivian food database
 
+
 ### 📦 [Project](https://github.com/Falulaan/Project)
 A full-featured TypeScript project showcasing modern web development practices.
 - **Tech Stack**: TypeScript
