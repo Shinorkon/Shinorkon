@@ -13,45 +13,27 @@ A Next.js-based event planning application built with TypeScript. Features a mod
 - **Tech Stack**: TypeScript, Next.js, React
 - **Status**: Active Development
 
-<<<<<<< HEAD
-### 📦 [Project](https://github.com/Shinorkon/Project)
-=======
-### 🍽️ [Shnuk](https://github.com/Falulaan/Shnuk)
+### 🍽️ [Shnuk](https://github.com/Shinorkon/Shnuk)
 A mobile nutrition and meal tracking app designed for Maldivians. Features traditional Maldivian foods, bilingual support (English/Dhivehi), and comprehensive nutrition tracking.
-- **Tech Stack**: Flutter, Dart, Python, FastAPI, PostgreSQL
+- **Tech Stack**: Python, Dart, Flutter, FastAPI, PostgreSQL
 - **Status**: Active Development
 - **Features**: Calorie tracking, meal logging, traditional Maldivian food database
 
-
-### 📦 [Project](https://github.com/Falulaan/Project)
->>>>>>> main
+### 📦 [Project](https://github.com/Shinorkon/Project)
 A full-featured TypeScript project showcasing modern web development practices.
 - **Tech Stack**: TypeScript
-- **License**: MIT
 
 ### 🤖 [Discord_bot](https://github.com/Shinorkon/Discord_bot)
 A Discord bot built with Go, demonstrating backend development skills.
 - **Tech Stack**: Go
-- **Purpose**: Discord automation and interaction
 
 ### 🎨 [panels-dev](https://github.com/Shinorkon/panels-dev)
 Development project for building reusable UI panels and components.
 - **Tech Stack**: TypeScript
-- **Size**: 17.5k
-
-### 🧪 [oxiqa_test](https://github.com/Shinorkon/oxiqa_test)
-Testing and QA project utilizing TypeScript.
-- **Tech Stack**: TypeScript
-
-### 🔒 [Shnuk](https://github.com/Shinorkon/Shnuk)
-Private repository showcasing specialized development work.
-- **Tech Stack**: To be determined
-- **Status**: Private Repository
 
 ### 🐍 [PracticalExam](https://github.com/Shinorkon/PracticalExam)
 Python practical test showcasing problem-solving skills.
 - **Tech Stack**: Python
-- **Note**: Technical assessment from Crowe
 
 ## 🛠️ Technology Stack
 
@@ -76,47 +58,28 @@ Python practical test showcasing problem-solving skills.
 ## 📈 Repository Overview
 
 ### By Language
-- **TypeScript**: 5 repositories (Event_Planner, Project, oxiqa_test, panels-dev, and more)
-- **Python**: 2 repositories (PracticalExam, Shnuk backend)
-- **Dart/Flutter**: 1 repository (Shnuk)
-- **Go**: 1 repository (Discord_bot)
+- **Other**: 4 repositories
+- **TypeScript**: 4 repositories
+- **Python**: 2 repositories
+- **Go**: 1 repository
 
-<<<<<<< HEAD
-### Total Public Repositories: 10
-### Total Private Repositories: 1 (Shnuk)
-=======
 ### Total Public Repositories: 11
->>>>>>> main
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
-<<<<<<< HEAD
-| [Project](https://github.com/Shinorkon/Project) | TypeScript | Full-featured TypeScript project | ⭐ 0 |
-| [oxiqa_test](https://github.com/Shinorkon/oxiqa_test) | TypeScript | Testing and QA project | ⭐ 0 |
-| [Falulaan](https://github.com/Shinorkon/Falulaan) | - | Special profile repository | ⭐ 0 |
-| [Discord_bot](https://github.com/Shinorkon/Discord_bot) | Go | Discord bot implementation | ⭐ 0 |
-| [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | Event planning application | ⭐ 0 |
-| [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | Python practical assessment | ⭐ 0 |
-| [testrepo](https://github.com/Shinorkon/testrepo) | - | Testing repository | ⭐ 0 |
-| [Testapp](https://github.com/Shinorkon/Testapp) | - | Test application | ⭐ 0 |
-| [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | UI panels development | ⭐ 0 |
-| [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | Postal system project | ⭐ 0 |
-| [Shnuk](https://github.com/Shinorkon/Shnuk) 🔒 | - | Private repository | ⭐ 0 |
-=======
-| [Shnuk](https://github.com/Falulaan/Shnuk) | Python/Dart | Maldivian nutrition & meal tracker with Flutter | ⭐ 0 |
-| [Project](https://github.com/Falulaan/Project) | TypeScript | Full-featured TypeScript project | ⭐ 0 |
-| [oxiqa_test](https://github.com/Falulaan/oxiqa_test) | TypeScript | Testing and QA project | ⭐ 0 |
-| [Falulaan](https://github.com/Falulaan/Falulaan) | - | Special profile repository | ⭐ 0 |
-| [Discord_bot](https://github.com/Falulaan/Discord_bot) | Go | Discord bot implementation | ⭐ 0 |
-| [Event_Planner](https://github.com/Falulaan/Event_Planner) | TypeScript | Event planning application | ⭐ 0 |
-| [PracticalExam](https://github.com/Falulaan/PracticalExam) | Python | Python practical assessment | ⭐ 0 |
-| [testrepo](https://github.com/Falulaan/testrepo) | - | Testing repository | ⭐ 0 |
-| [Testapp](https://github.com/Falulaan/Testapp) | - | Test application | ⭐ 0 |
-| [panels-dev](https://github.com/Falulaan/panels-dev) | TypeScript | UI panels development | ⭐ 0 |
-| [Postalsystem](https://github.com/Falulaan/Postalsystem) | - | Postal system project | ⭐ 0 |
->>>>>>> main
+| [Shnuk](https://github.com/Shinorkon/Shnuk) | Python | Python project | ⭐ 0 |
+| [Shinorkon](https://github.com/Shinorkon/Shinorkon) | - | - project | ⭐ 0 |
+| [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
+| [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | TypeScript project | ⭐ 0 |
+| [Discord_bot](https://github.com/Shinorkon/Discord_bot) | Go | Go project | ⭐ 0 |
+| [Testapp](https://github.com/Shinorkon/Testapp) | - | - project | ⭐ 0 |
+| [oxiqa_test](https://github.com/Shinorkon/oxiqa_test) | TypeScript | TypeScript project | ⭐ 0 |
+| [Project](https://github.com/Shinorkon/Project) | TypeScript | TypeScript project | ⭐ 0 |
+| [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | TypeScript project | ⭐ 0 |
+| [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | - project | ⭐ 0 |
+| [testrepo](https://github.com/Shinorkon/testrepo) | - | - project | ⭐ 0 |
 
 ## 📫 Connect with Me
 
