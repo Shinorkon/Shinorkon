@@ -1,16 +1,87 @@
-## Hi there 👋
+# Hi there, I'm Falulaan! 👋
 
-<!--
-**Falulaan/Falulaan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! I'm a passionate developer who loves building modern web applications and exploring various technologies.
 
-Here are some ideas to get you started:
+## 🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a software developer with experience across multiple programming languages and frameworks. I enjoy creating practical solutions and learning new technologies along the way.
+
+## 💻 Featured Projects
+
+### 🎯 [Event_Planner](https://github.com/Falulaan/Event_Planner)
+A Next.js-based event planning application built with TypeScript. Features a modern UI and comprehensive event management capabilities.
+- **Tech Stack**: TypeScript, Next.js, React
+- **Status**: Active Development
+
+### 📦 [Project](https://github.com/Falulaan/Project)
+A full-featured TypeScript project showcasing modern web development practices.
+- **Tech Stack**: TypeScript
+- **License**: MIT
+
+### 🤖 [Discord_bot](https://github.com/Falulaan/Discord_bot)
+A Discord bot built with Go, demonstrating backend development skills.
+- **Tech Stack**: Go
+- **Purpose**: Discord automation and interaction
+
+### 🎨 [panels-dev](https://github.com/Falulaan/panels-dev)
+Development project for building reusable UI panels and components.
+- **Tech Stack**: TypeScript
+- **Size**: 17.5k
+
+### 🧪 [oxiqa_test](https://github.com/Falulaan/oxiqa_test)
+Testing and QA project utilizing TypeScript.
+- **Tech Stack**: TypeScript
+
+### 🐍 [PracticalExam](https://github.com/Falulaan/PracticalExam)
+Python practical test showcasing problem-solving skills.
+- **Tech Stack**: Python
+- **Note**: Technical assessment from Crowe
+
+## 🛠️ Technology Stack
+
+### Languages
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+### Frameworks & Libraries
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+## 📊 GitHub Stats
+
+![Falulaan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Falulaan&show_icons=true&theme=radical)
+
+## 📈 Repository Overview
+
+### By Language
+- **TypeScript**: 5 repositories (Event_Planner, Project, oxiqa_test, panels-dev, and more)
+- **Python**: 1 repository (PracticalExam)
+- **Go**: 1 repository (Discord_bot)
+
+### Total Public Repositories: 10
+
+## 🔗 All My Repositories
+
+| Repository | Language | Description | Stars |
+|------------|----------|-------------|-------|
+| [Project](https://github.com/Falulaan/Project) | TypeScript | Full-featured TypeScript project | ⭐ 0 |
+| [oxiqa_test](https://github.com/Falulaan/oxiqa_test) | TypeScript | Testing and QA project | ⭐ 0 |
+| [Falulaan](https://github.com/Falulaan/Falulaan) | - | Special profile repository | ⭐ 0 |
+| [Discord_bot](https://github.com/Falulaan/Discord_bot) | Go | Discord bot implementation | ⭐ 0 |
+| [Event_Planner](https://github.com/Falulaan/Event_Planner) | TypeScript | Event planning application | ⭐ 0 |
+| [PracticalExam](https://github.com/Falulaan/PracticalExam) | Python | Python practical assessment | ⭐ 0 |
+| [testrepo](https://github.com/Falulaan/testrepo) | - | Testing repository | ⭐ 0 |
+| [Testapp](https://github.com/Falulaan/Testapp) | - | Test application | ⭐ 0 |
+| [panels-dev](https://github.com/Falulaan/panels-dev) | TypeScript | UI panels development | ⭐ 0 |
+| [Postalsystem](https://github.com/Falulaan/Postalsystem) | - | Postal system project | ⭐ 0 |
+
+## 📫 Connect with Me
+
+Feel free to explore my repositories and reach out if you'd like to collaborate on any projects!
+
+---
+
+*This profile is automatically updated to reflect my latest work and contributions.*
