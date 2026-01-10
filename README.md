@@ -6,6 +6,29 @@ Welcome to my GitHub profile! I'm a passionate developer who loves building mode
 
 I'm a software developer with experience across multiple programming languages and frameworks. I enjoy creating practical solutions and learning new technologies along the way.
 
+## 💻 Featured Projects
+
+### 🎯 [Event_Planner](https://github.com/Shinorkon/Event_Planner)
+A Next.js-based event planning application built with TypeScript. Features a modern UI and comprehensive event management capabilities.
+- **Tech Stack**: TypeScript, Next.js, React
+- **Status**: Active Development
+
+### 📦 [Project](https://github.com/Shinorkon/Project)
+A full-featured TypeScript project showcasing modern web development practices.
+- **Tech Stack**: TypeScript
+
+### 🤖 [Discord_bot](https://github.com/Shinorkon/Discord_bot)
+A Discord bot built with Go, demonstrating backend development skills.
+- **Tech Stack**: Go
+
+### 🎨 [panels-dev](https://github.com/Shinorkon/panels-dev)
+Development project for building reusable UI panels and components.
+- **Tech Stack**: TypeScript
+
+### 🐍 [PracticalExam](https://github.com/Shinorkon/PracticalExam)
+Python practical test showcasing problem-solving skills.
+- **Tech Stack**: Python
+
 ## 🛠️ Technology Stack
 
 ### Languages
@@ -31,31 +54,6 @@ I'm a software developer with experience across multiple programming languages a
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![OWL](https://img.shields.io/badge/-OWL-714B67?style=flat-square&logo=odoo&logoColor=white)
-
-
-## 💻 Featured Projects
-
-### 🎯 [Event_Planner](https://github.com/Shinorkon/Event_Planner)
-A Next.js-based event planning application built with TypeScript. Features a modern UI and comprehensive event management capabilities.
-- **Tech Stack**: TypeScript, Next.js, React
-- **Status**: Active Development
-
-### 📦 [Project](https://github.com/Shinorkon/Project)
-A full-featured TypeScript project showcasing modern web development practices.
-- **Tech Stack**: TypeScript
-
-### 🤖 [Discord_bot](https://github.com/Shinorkon/Discord_bot)
-A Discord bot built with Go, demonstrating backend development skills.
-- **Tech Stack**: Go
-
-### 🎨 [panels-dev](https://github.com/Shinorkon/panels-dev)
-Development project for building reusable UI panels and components.
-- **Tech Stack**: TypeScript
-
-### 🐍 [PracticalExam](https://github.com/Shinorkon/PracticalExam)
-Python practical test showcasing problem-solving skills.
-- **Tech Stack**: Python
-
 
 ## 📊 GitHub Stats
 
