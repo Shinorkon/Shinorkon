@@ -58,19 +58,19 @@ Python practical test showcasing problem-solving skills.
 ## 📈 Repository Overview
 
 ### By Language
-- **Other**: 4 repositories
 - **TypeScript**: 4 repositories
-- **Python**: 2 repositories
+- **Other**: 4 repositories
+- **Python**: 3 repositories
 - **Go**: 1 repository
 
-### Total Public Repositories: 11
+### Total Public Repositories: 12
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
+| [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
 | [Shnuk](https://github.com/Shinorkon/Shnuk) | Python | Python project | ⭐ 0 |
-| [Shinorkon](https://github.com/Shinorkon/Shinorkon) | - | - project | ⭐ 0 |
 | [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
 | [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | TypeScript project | ⭐ 0 |
 | [Discord_bot](https://github.com/Shinorkon/Discord_bot) | Go | Go project | ⭐ 0 |
@@ -78,6 +78,7 @@ Python practical test showcasing problem-solving skills.
 | [oxiqa_test](https://github.com/Shinorkon/oxiqa_test) | TypeScript | TypeScript project | ⭐ 0 |
 | [Project](https://github.com/Shinorkon/Project) | TypeScript | TypeScript project | ⭐ 0 |
 | [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | TypeScript project | ⭐ 0 |
+| [App](https://github.com/Shinorkon/App) | - | - project | ⭐ 0 |
 | [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | - project | ⭐ 0 |
 | [testrepo](https://github.com/Shinorkon/testrepo) | - | - project | ⭐ 0 |
 
