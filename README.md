@@ -13,6 +13,12 @@ A Next.js-based event planning application built with TypeScript. Features a mod
 - **Tech Stack**: TypeScript, Next.js, React
 - **Status**: Active Development
 
+### 🍽️ [Shnuk](https://github.com/Falulaan/Shnuk)
+A mobile nutrition and meal tracking app designed for Maldivians. Features traditional Maldivian foods, bilingual support (English/Dhivehi), and comprehensive nutrition tracking.
+- **Tech Stack**: Flutter, Dart, Python, FastAPI, PostgreSQL
+- **Status**: Active Development
+- **Features**: Calorie tracking, meal logging, traditional Maldivian food database
+
 ### 📦 [Project](https://github.com/Falulaan/Project)
 A full-featured TypeScript project showcasing modern web development practices.
 - **Tech Stack**: TypeScript
@@ -43,9 +49,12 @@ Python practical test showcasing problem-solving skills.
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 ### Frameworks & Libraries
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -58,15 +67,17 @@ Python practical test showcasing problem-solving skills.
 
 ### By Language
 - **TypeScript**: 5 repositories (Event_Planner, Project, oxiqa_test, panels-dev, and more)
-- **Python**: 1 repository (PracticalExam)
+- **Python**: 2 repositories (PracticalExam, Shnuk backend)
+- **Dart/Flutter**: 1 repository (Shnuk)
 - **Go**: 1 repository (Discord_bot)
 
-### Total Public Repositories: 10
+### Total Public Repositories: 11
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
+| [Shnuk](https://github.com/Falulaan/Shnuk) | Python/Dart | Maldivian nutrition & meal tracker with Flutter | ⭐ 0 |
 | [Project](https://github.com/Falulaan/Project) | TypeScript | Full-featured TypeScript project | ⭐ 0 |
 | [oxiqa_test](https://github.com/Falulaan/oxiqa_test) | TypeScript | Testing and QA project | ⭐ 0 |
 | [Falulaan](https://github.com/Falulaan/Falulaan) | - | Special profile repository | ⭐ 0 |
