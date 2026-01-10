@@ -32,6 +32,11 @@ Development project for building reusable UI panels and components.
 Testing and QA project utilizing TypeScript.
 - **Tech Stack**: TypeScript
 
+### 🔒 [Shnuk](https://github.com/Falulaan/Shnuk)
+Private repository showcasing specialized development work.
+- **Tech Stack**: To be determined
+- **Status**: Private Repository
+
 ### 🐍 [PracticalExam](https://github.com/Falulaan/PracticalExam)
 Python practical test showcasing problem-solving skills.
 - **Tech Stack**: Python
@@ -62,6 +67,7 @@ Python practical test showcasing problem-solving skills.
 - **Go**: 1 repository (Discord_bot)
 
 ### Total Public Repositories: 10
+### Total Private Repositories: 1 (Shnuk)
 
 ## 🔗 All My Repositories
 
@@ -77,6 +83,7 @@ Python practical test showcasing problem-solving skills.
 | [Testapp](https://github.com/Falulaan/Testapp) | - | Test application | ⭐ 0 |
 | [panels-dev](https://github.com/Falulaan/panels-dev) | TypeScript | UI panels development | ⭐ 0 |
 | [Postalsystem](https://github.com/Falulaan/Postalsystem) | - | Postal system project | ⭐ 0 |
+| [Shnuk](https://github.com/Falulaan/Shnuk) 🔒 | - | Private repository | 🔒 Private |
 
 ## 📫 Connect with Me
 
