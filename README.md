@@ -13,12 +13,6 @@ A Next.js-based event planning application built with TypeScript. Features a mod
 - **Tech Stack**: TypeScript, Next.js, React
 - **Status**: Active Development
 
-### 🍽️ [Shnuk](https://github.com/Shinorkon/Shnuk)
-A mobile nutrition and meal tracking app designed for Maldivians. Features traditional Maldivian foods, bilingual support (English/Dhivehi), and comprehensive nutrition tracking.
-- **Tech Stack**: Python, Dart, Flutter, FastAPI, PostgreSQL
-- **Status**: Active Development
-- **Features**: Calorie tracking, meal logging, traditional Maldivian food database
-
 ### 📦 [Project](https://github.com/Shinorkon/Project)
 A full-featured TypeScript project showcasing modern web development practices.
 - **Tech Stack**: TypeScript
@@ -50,9 +44,6 @@ Python practical test showcasing problem-solving skills.
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000? style=flat-square&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Owl](https://img.shields.io/badge/-Owl-714B67?style=flat-square&logo=odoo&logoColor=white)
 
 ## 📊 GitHub Stats
 
@@ -63,17 +54,16 @@ Python practical test showcasing problem-solving skills.
 ### By Language
 - **TypeScript**: 4 repositories
 - **Other**: 4 repositories
-- **Python**: 3 repositories
+- **Python**: 2 repositories
 - **Go**: 1 repository
 
-### Total Public Repositories: 12
+### Total Public Repositories: 11
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
-| [Shnuk](https://github.com/Shinorkon/Shnuk) | Python | Python project | ⭐ 0 |
 | [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
 | [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | TypeScript project | ⭐ 0 |
 | [Discord_bot](https://github.com/Shinorkon/Discord_bot) | Go | Go project | ⭐ 0 |
