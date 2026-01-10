@@ -83,7 +83,7 @@ Python practical test showcasing problem-solving skills.
 | [Testapp](https://github.com/Shinorkon/Testapp) | - | Test application | ⭐ 0 |
 | [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | UI panels development | ⭐ 0 |
 | [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | Postal system project | ⭐ 0 |
-| [Shnuk](https://github.com/Shinorkon/Shnuk) 🔒 | - | Private repository | 🔒 Private |
+| [Shnuk](https://github.com/Shinorkon/Shnuk) 🔒 | - | Private repository | ⭐ 0 |
 
 ## 📫 Connect with Me
 
