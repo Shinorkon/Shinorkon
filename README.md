@@ -64,15 +64,18 @@ Python practical test showcasing problem-solving skills.
 ### By Language
 - **TypeScript**: 4 repositories
 - **Other**: 4 repositories
-- **Python**: 2 repositories
+- **Python**: 3 repositories
+- **Dart**: 1 repository
 - **Go**: 1 repository
 
-### Total Public Repositories: 11
+### Total Public Repositories: 13
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
+| [budget-tracker](https://github.com/Shinorkon/budget-tracker) | Dart | Dart project | ⭐ 0 |
+| [accomodation-scraper](https://github.com/Shinorkon/accomodation-scraper) | Python | Python project | ⭐ 0 |
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
 | [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
 | [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | TypeScript project | ⭐ 0 |
