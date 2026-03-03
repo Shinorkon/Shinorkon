@@ -74,9 +74,9 @@ Python practical test showcasing problem-solving skills.
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
+| [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
 | [budget-tracker](https://github.com/Shinorkon/budget-tracker) | Dart | Dart project | ⭐ 0 |
 | [accomodation-scraper](https://github.com/Shinorkon/accomodation-scraper) | Python | Python project | ⭐ 0 |
-| [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
 | [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
 | [Event_Planner](https://github.com/Shinorkon/Event_Planner) | TypeScript | TypeScript project | ⭐ 0 |
 | [Discord_bot](https://github.com/Shinorkon/Discord_bot) | Go | Go project | ⭐ 0 |
