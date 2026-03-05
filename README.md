@@ -69,12 +69,12 @@ Python practical test showcasing problem-solving skills.
 
 ### By Language
 - **TypeScript**: 4 repositories
+- **Other**: 4 repositories
 - **Python**: 3 repositories
-- **Other**: 3 repositories
 - **Dart**: 1 repository
 - **Go**: 1 repository
 
-### Total Public Repositories: 12
+### Total Public Repositories: 13
 
 ## 🔗 All My Repositories
 
@@ -90,6 +90,7 @@ Python practical test showcasing problem-solving skills.
 | [oxiqa_test](https://github.com/Shinorkon/oxiqa_test) | TypeScript | TypeScript project | ⭐ 0 |
 | [Project](https://github.com/Shinorkon/Project) | TypeScript | TypeScript project | ⭐ 0 |
 | [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | TypeScript project | ⭐ 0 |
+| [App](https://github.com/Shinorkon/App) | - | - project | ⭐ 0 |
 | [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | - project | ⭐ 0 |
 | [testrepo](https://github.com/Shinorkon/testrepo) | - | - project | ⭐ 0 |
 
