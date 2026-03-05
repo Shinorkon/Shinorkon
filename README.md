@@ -13,9 +13,15 @@ A Next.js-based event planning application built with TypeScript. Features a mod
 - **Tech Stack**: TypeScript, Next.js, React
 - **Status**: Active Development
 
-### 📦 [Project](https://github.com/Shinorkon/Project)
-A full-featured TypeScript project showcasing modern web development practices.
-- **Tech Stack**: TypeScript
+### 🏠 [accomodation-scraper](https://github.com/Shinorkon/accomodation-scraper)
+A Python web scraper for finding and aggregating accommodation listings. Automates the search process to help find housing options efficiently.
+- **Tech Stack**: Python
+- **Status**: Active Development
+
+### 💰 [budget-tracker](https://github.com/Shinorkon/budget-tracker)
+A Dart/Flutter mobile application for personal budget management and expense tracking.
+- **Tech Stack**: Dart, Flutter
+- **Status**: Active Development
 
 ### 🤖 [Discord_bot](https://github.com/Shinorkon/Discord_bot)
 A Discord bot built with Go, demonstrating backend development skills.
@@ -63,12 +69,12 @@ Python practical test showcasing problem-solving skills.
 
 ### By Language
 - **TypeScript**: 4 repositories
-- **Other**: 4 repositories
 - **Python**: 3 repositories
+- **Other**: 3 repositories
 - **Dart**: 1 repository
 - **Go**: 1 repository
 
-### Total Public Repositories: 13
+### Total Public Repositories: 12
 
 ## 🔗 All My Repositories
 
@@ -84,7 +90,6 @@ Python practical test showcasing problem-solving skills.
 | [oxiqa_test](https://github.com/Shinorkon/oxiqa_test) | TypeScript | TypeScript project | ⭐ 0 |
 | [Project](https://github.com/Shinorkon/Project) | TypeScript | TypeScript project | ⭐ 0 |
 | [panels-dev](https://github.com/Shinorkon/panels-dev) | TypeScript | TypeScript project | ⭐ 0 |
-| [App](https://github.com/Shinorkon/App) | - | - project | ⭐ 0 |
 | [Postalsystem](https://github.com/Shinorkon/Postalsystem) | - | - project | ⭐ 0 |
 | [testrepo](https://github.com/Shinorkon/testrepo) | - | - project | ⭐ 0 |
 
