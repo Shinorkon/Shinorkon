@@ -24,7 +24,7 @@ def generate_featured_projects(repos):
     featured = []
     
     # Find specific repos to feature
-    featured_names = ['Event_Planner', 'Shnuk', 'Project', 'Discord_bot', 'panels-dev', 'PracticalExam']
+    featured_names = ['Event_Planner', 'accomodation-scraper', 'budget-tracker', 'Discord_bot', 'panels-dev', 'PracticalExam']
     
     for name in featured_names:
         repo = next((r for r in repos if r['name'] == name), None)
@@ -41,8 +41,8 @@ def generate_readme_content(repos_data):
     # Get descriptions for featured repos
     featured_descriptions = {
         'Event_Planner': 'A Next.js-based event planning application built with TypeScript. Features a modern UI and comprehensive event management capabilities.',
-        'Shnuk': 'A mobile nutrition and meal tracking app designed for Maldivians. Features traditional Maldivian foods, bilingual support (English/Dhivehi), and comprehensive nutrition tracking.',
-        'Project': 'A full-featured TypeScript project showcasing modern web development practices.',
+        'accomodation-scraper': 'A Python web scraper for finding and aggregating accommodation listings. Automates the search process to help find housing options efficiently.',
+        'budget-tracker': 'A Dart/Flutter mobile application for personal budget management and expense tracking.',
         'Discord_bot': 'A Discord bot built with Go, demonstrating backend development skills.',
         'panels-dev': 'Development project for building reusable UI panels and components.',
         'PracticalExam': 'Python practical test showcasing problem-solving skills.'
@@ -50,8 +50,8 @@ def generate_readme_content(repos_data):
     
     featured_tech = {
         'Event_Planner': 'TypeScript, Next.js, React',
-        'Shnuk': 'Python, Dart, Flutter, FastAPI, PostgreSQL',
-        'Project': 'TypeScript',
+        'accomodation-scraper': 'Python',
+        'budget-tracker': 'Dart, Flutter',
         'Discord_bot': 'Go',
         'panels-dev': 'TypeScript',
         'PracticalExam': 'Python'
@@ -78,8 +78,8 @@ I'm a software developer with experience across multiple programming languages a
         
         emoji_map = {
             'Event_Planner': '🎯',
-            'Shnuk': '🍽️',
-            'Project': '📦',
+            'accomodation-scraper': '🏠',
+            'budget-tracker': '💰',
             'Discord_bot': '🤖',
             'panels-dev': '🎨',
             'PracticalExam': '🐍'
@@ -91,9 +91,10 @@ I'm a software developer with experience across multiple programming languages a
         readme += f"- **Tech Stack**: {tech}\n"
         if name == 'Event_Planner':
             readme += "- **Status**: Active Development\n"
-        elif name == 'Shnuk':
+        elif name == 'accomodation-scraper':
             readme += "- **Status**: Active Development\n"
-            readme += "- **Features**: Calorie tracking, meal logging, traditional Maldivian food database\n"
+        elif name == 'budget-tracker':
+            readme += "- **Status**: Active Development\n"
         readme += "\n"
     
     readme += """## 🛠️ Technology Stack
