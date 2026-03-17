@@ -80,8 +80,8 @@ Python practical test showcasing problem-solving skills.
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
-| [art_of_war](https://github.com/Shinorkon/art_of_war) | - | - project | ⭐ 0 |
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
+| [art_of_war](https://github.com/Shinorkon/art_of_war) | - | - project | ⭐ 0 |
 | [budget-tracker](https://github.com/Shinorkon/budget-tracker) | Dart | Dart project | ⭐ 0 |
 | [accomodation-scraper](https://github.com/Shinorkon/accomodation-scraper) | Python | Python project | ⭐ 0 |
 | [PracticalExam](https://github.com/Shinorkon/PracticalExam) | Python | The Practical python test from Crowe | ⭐ 0 |
