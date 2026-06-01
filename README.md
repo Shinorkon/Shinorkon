@@ -71,15 +71,16 @@ Python practical test showcasing problem-solving skills.
 - **Other**: 5 repositories
 - **TypeScript**: 4 repositories
 - **Python**: 3 repositories
-- **Dart**: 1 repository
+- **Dart**: 2 repositories
 - **Go**: 1 repository
 
-### Total Public Repositories: 14
+### Total Public Repositories: 15
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
+| [oreuda](https://github.com/Shinorkon/oreuda) | Dart | Dart project | ⭐ 0 |
 | [budget-tracker](https://github.com/Shinorkon/budget-tracker) | Dart | Dart project | ⭐ 0 |
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
 | [art_of_war](https://github.com/Shinorkon/art_of_war) | - | - project | ⭐ 0 |
