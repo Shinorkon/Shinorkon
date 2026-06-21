@@ -81,8 +81,8 @@ Python practical test showcasing problem-solving skills.
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
 | [Directors-eye](https://github.com/Shinorkon/Directors-eye) | TypeScript | TypeScript project | ⭐ 0 |
-| [Shino-chan](https://github.com/Shinorkon/Shino-chan) | Python | Python project | ⭐ 0 |
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
+| [Shino-chan](https://github.com/Shinorkon/Shino-chan) | Python | Python project | ⭐ 0 |
 | [Budgetbot](https://github.com/Shinorkon/Budgetbot) | Go | Go project | ⭐ 0 |
 | [oreuda](https://github.com/Shinorkon/oreuda) | Dart | Dart project | ⭐ 0 |
 | [budget-tracker](https://github.com/Shinorkon/budget-tracker) | Dart | Dart project | ⭐ 0 |
