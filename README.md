@@ -68,20 +68,21 @@ Python practical test showcasing problem-solving skills.
 ## 📈 Repository Overview
 
 ### By Language
+- **Python**: 5 repositories
 - **TypeScript**: 5 repositories
 - **Other**: 5 repositories
-- **Python**: 4 repositories
 - **Go**: 2 repositories
 - **Dart**: 2 repositories
 
-### Total Public Repositories: 18
+### Total Public Repositories: 19
 
 ## 🔗 All My Repositories
 
 | Repository | Language | Description | Stars |
 |------------|----------|-------------|-------|
-| [Directors-eye](https://github.com/Shinorkon/Directors-eye) | TypeScript | TypeScript project | ⭐ 1 |
+| [Celia_shinork](https://github.com/Shinorkon/Celia_shinork) | Python | Python project | ⭐ 0 |
 | [Shinorkon](https://github.com/Shinorkon/Shinorkon) | Python | Python project | ⭐ 0 |
+| [Directors-eye](https://github.com/Shinorkon/Directors-eye) | TypeScript | TypeScript project | ⭐ 1 |
 | [Shino-chan](https://github.com/Shinorkon/Shino-chan) | Python | Python project | ⭐ 0 |
 | [Budgetbot](https://github.com/Shinorkon/Budgetbot) | Go | Go project | ⭐ 0 |
 | [oreuda](https://github.com/Shinorkon/oreuda) | Dart | Dart project | ⭐ 0 |
