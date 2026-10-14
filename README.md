@@ -1,7 +1,3 @@
-# Hi there, I'm Falulaan! 👋
-
-Welcome to my GitHub profile! I'm a passionate developer who loves building modern web applications and exploring various technologies.
-
 ## 🚀 About Me
 
 I'm a software developer with experience across multiple programming languages and frameworks. I enjoy creating practical solutions and learning new technologies along the way.
