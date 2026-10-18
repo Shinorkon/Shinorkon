@@ -5,6 +5,34 @@ from pathlib import Path
 from . import __version__, core, tools
 
 
+def doctor() -> int:
+    import os, platform, time
+    print("OS:", platform.system(), "| session:", os.environ.get("XDG_SESSION_TYPE", "n/a"),
+          "| desktop:", os.environ.get("XDG_CURRENT_DESKTOP", "n/a"))
+    if os.environ.get("XDG_SESSION_TYPE") == "wayland":
+        print("! Wayland session: global drag detection will NOT work. Log in with an X11/Xorg session,")
+        print("  or use: mandarin wheel FILE...  (click a petal)")
+    try:
+        from pynput import keyboard, mouse
+    except Exception as e:
+        print("! pynput unavailable:", e, "\n  fix: pip install pynput"); return 1
+    seen = {"move": 0, "click": 0, "key": set()}
+    ml = mouse.Listener(on_move=lambda x, y: seen.__setitem__("move", seen["move"] + 1),
+                        on_click=lambda *a: seen.__setitem__("click", seen["click"] + 1))
+    kl = keyboard.Listener(on_press=lambda k: seen["key"].add(getattr(k, "name", str(k))))
+    ml.start(); kl.start()
+    print("Listening 6s: move the mouse, click, and press Shift / Ctrl / Alt (Cmd on mac)...")
+    time.sleep(6); ml.stop(); kl.stop()
+    print(f"mouse moves: {seen['move']}, clicks: {seen['click']}, keys: {sorted(seen['key']) or 'none'}")
+    if not seen["move"]:
+        print("! No mouse events: input is blocked. macOS: System Settings > Privacy > Accessibility + Input Monitoring.")
+    elif not seen["key"]:
+        print("! Mouse works but no key events: check Input Monitoring (mac) / session type (Linux).")
+    else:
+        print("Input OK. If the wheel still doesn't show, run `mandarin tray` and keep it running while you drag.")
+    return 0
+
+
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="mandarin", description="Offline file converter")
     p.add_argument("--version", action="version", version=__version__)
@@ -20,10 +48,13 @@ def main(argv=None) -> int:
     m = sub.add_parser("merge-pdf"); m.add_argument("files", nargs="+", type=Path)
     sp = sub.add_parser("split-pdf"); sp.add_argument("file", type=Path)
     q = sub.add_parser("qr"); q.add_argument("file", type=Path)
+    sub.add_parser("doctor", help="diagnose why the drag wheel does not appear")
     sub.add_parser("tray", help="run the menu-bar/tray agent (drag with a modifier held to summon the wheel)")
     wh = sub.add_parser("wheel", help="open the wheel for given files (click a petal)"); wh.add_argument("files", nargs="+", type=Path)
     wh.add_argument("--mode", default="convert", choices=["convert", "tools", "actions"])
     a = p.parse_args(argv)
+    if a.cmd == "doctor":
+        return doctor()
     if a.cmd in (None, "tray", "wheel"):
         from PySide6.QtWidgets import QApplication
         from .app import MandarinApp
