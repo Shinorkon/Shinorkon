@@ -10,8 +10,26 @@ def doctor() -> int:
     print("OS:", platform.system(), "| session:", os.environ.get("XDG_SESSION_TYPE", "n/a"),
           "| desktop:", os.environ.get("XDG_CURRENT_DESKTOP", "n/a"))
     if os.environ.get("XDG_SESSION_TYPE") == "wayland":
-        print("! Wayland session: global drag detection will NOT work. Log in with an X11/Xorg session,")
-        print("  or use: mandarin wheel FILE...  (click a petal)")
+        from .monitor import EvdevInput
+        try:
+            n = len(EvdevInput.open_devices())
+        except Exception as e:
+            n = 0; print("! evdev error:", e)
+        if n:
+            print(f"Wayland: reading {n} input devices via evdev. OK.")
+            if os.environ.get("HYPRLAND_INSTANCE_SIGNATURE"): print("Hyprland detected: cursor position via hyprctl.")
+            else: print("! Not Hyprland: overlay may not be placeable at the pointer; use `mandarin wheel FILE...` if so.")
+            seen = {"move": 0, "click": 0, "key": set()}
+            from types import SimpleNamespace
+            ev = EvdevInput(lambda x, y: seen.__setitem__("move", seen["move"] + 1),
+                            lambda *a: seen.__setitem__("click", seen["click"] + 1),
+                            lambda k: seen["key"].add(k.name), lambda k: None)
+            ev.start(); print("Listening 6s: move the mouse, click, press Shift/Ctrl/Alt...")
+            time.sleep(6); ev.stop()
+            print(f"mouse moves: {seen['move']}, left clicks: {seen['click']}, keys: {sorted(seen['key']) or 'none'}")
+            return 0
+        print("! Cannot read /dev/input. Fix: sudo usermod -aG input $USER   then log out and back in.")
+        return 1
     try:
         from pynput import keyboard, mouse
     except Exception as e:
@@ -56,6 +74,8 @@ def main(argv=None) -> int:
     if a.cmd == "doctor":
         return doctor()
     if a.cmd in (None, "tray", "wheel"):
+        from .app import prepare_platform
+        prepare_platform()
         from PySide6.QtWidgets import QApplication
         from .app import MandarinApp
         qapp = QApplication(sys.argv); qapp.setQuitOnLastWindowClosed(False)

@@ -5,7 +5,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from PySide6.QtCore import Qt
+from PySide6.QtCore import QPoint, Qt
 from PySide6.QtGui import QAction, QColor, QCursor, QGuiApplication, QIcon, QPainter, QPixmap
 from PySide6.QtCore import QMimeData, QUrl
 from PySide6.QtWidgets import (QApplication, QFileDialog, QMenu, QMessageBox, QSystemTrayIcon)
@@ -15,6 +15,18 @@ from .jobs import Job, open_terminal
 from .monitor import DragMonitor
 from .windows import (FloatPanel, OptionsDialog, ProgressWindow, SettingsDialog, TextResult, WelcomeDialog)
 from .wheelview import WheelView, ACCENT
+
+
+def cursor_pos():
+    """Wayland hides the pointer from XWayland clients, so ask Hyprland where it is."""
+    import json, os, subprocess
+    if os.environ.get("HYPRLAND_INSTANCE_SIGNATURE") and shutil.which("hyprctl"):
+        try:
+            r = subprocess.run(["hyprctl", "cursorpos", "-j"], capture_output=True, text=True, timeout=0.3)
+            d = json.loads(r.stdout); return QPoint(int(d["x"]), int(d["y"]))
+        except Exception:
+            pass
+    return QCursor.pos()
 
 
 def make_icon() -> QIcon:
@@ -33,7 +45,7 @@ class MandarinApp:
         self.apply_settings()
         self.wheel.chosen.connect(self.on_chosen)
         self.monitor = DragMonitor(self.st)
-        self.monitor.summon.connect(lambda m: self.wheel.summon(m, QCursor.pos()))
+        self.monitor.summon.connect(lambda m: self.wheel.summon(m, cursor_pos()))
         self.monitor.mode_changed.connect(self.wheel.set_mode)
         self.monitor.released.connect(self.wheel.drag_released)
         self.monitor.cancelled.connect(self.wheel.dismiss)
@@ -113,6 +125,13 @@ class MandarinApp:
                 for f in files:
                     try: shutil.move(str(f), str(Path(dest) / f.name))
                     except Exception as e: QMessageBox.warning(None, "Move failed", f"{f.name}: {e}")
+
+
+def prepare_platform() -> None:
+    """On Wayland, run Qt via XWayland (xcb): it lets us place a frameless overlay under the pointer."""
+    import os
+    if os.environ.get("XDG_SESSION_TYPE") == "wayland" and "QT_QPA_PLATFORM" not in os.environ:
+        os.environ["QT_QPA_PLATFORM"] = "xcb"
 
 
 def main_tray(argv=None) -> int:

@@ -60,7 +60,8 @@ class WheelView(QWidget):
         self.setMouseTracking(True)
         if overlay:
             self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool
-                                | Qt.WindowDoesNotAcceptFocus | Qt.NoDropShadowWindowHint)
+                                | Qt.WindowDoesNotAcceptFocus | Qt.NoDropShadowWindowHint
+                                | Qt.X11BypassWindowManagerHint)
             self.setAttribute(Qt.WA_TranslucentBackground)
             self.setAttribute(Qt.WA_ShowWithoutActivating)
         self._snd = None
