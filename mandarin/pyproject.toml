@@ -1,0 +1,16 @@
+[project]
+name = "mandarin"
+version = "0.1.0"
+description = "Offline file converter for Linux and macOS"
+requires-python = ">=3.10"
+dependencies = ["PySide6-Essentials"]  # add PySide6-Addons for the highlight sound
+[project.optional-dependencies]
+input = ["pynput"]
+pdf = ["Pillow"]
+[project.scripts]
+mandarin = "mandarin.cli:main"
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["mandarin"]
