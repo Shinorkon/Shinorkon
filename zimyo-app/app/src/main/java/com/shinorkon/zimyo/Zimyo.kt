@@ -25,7 +25,8 @@ object Zimyo {
     }
 
     /** action = "in" or "out". Returns a short status message. */
-    fun punch(ctx: Context, action: String): String = try {
+    fun punch(ctx: Context, action: String): String {
+    return try {
         val p = ctx.getSharedPreferences("z", Context.MODE_PRIVATE)
         val user = p.getString("u", "") ?: ""; val pass = p.getString("p", "") ?: ""
         if (user.isEmpty()) return "Open the app and save your login"
@@ -50,4 +51,5 @@ object Zimyo {
             }
         }
     } catch (e: Exception) { "Error: ${e.message}" }
+    }
 }
